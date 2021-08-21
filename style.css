@@ -1,0 +1,83 @@
+/* Background della pagina */
+body{
+  background-repeat: no-repeat;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  font-family: 'IBM Plex Sans Thai', arial;
+}
+/* Background semitrasparente in secondo piano */
+#container{
+  height: 50%;
+  width: 80%;
+  border-radius: 7px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+/* dimensionamento header contenente Logo e Motto */
+header{
+  margin: auto;
+  width: 40%;
+  padding-top: 50px;
+}
+/* Posizionamento e dimensionamento Logo */
+header > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+/* Allineamento, colore e dimensione Motto*/
+header > h1{
+  text-align: center;
+  color: limegreen;
+  font-size: 40px;
+}
+/* Posizionamento centrale di nav e main */
+nav, main{
+  margin: auto;
+  width: 85%
+}
+/* background e padding menu' navigazione */
+nav{
+  background-color: limegreen;
+  padding: 10px 0px ;
+}
+/* posizionamento button */
+nav > div{
+  margin: 0 auto;
+  width: 30%;
+}
+/* posizionamento e text color lista monopattini */
+main{
+  padding: 20px 0px;
+  color: white;
+}
+/* posizionamento elementi lista monopattini */
+main > section{
+  padding: 10px 0px;
+  width: 30%;
+}
+
+section > label{
+  font-size: 25px;
+}
+/* Caratteristiche generali stato di carica */
+.carica{
+  height: 30px;
+  border-radius: 5px;
+}
+/* Caratteristiche specifiche */
+.media{
+  width: 300px;
+  background-color: yellow;
+}
+
+.alta{
+  width: 500px;
+  background-color: green;
+}
+
+.bassa{
+  width: 150px;
+  background-color: red;
+}
